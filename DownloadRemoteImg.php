@@ -6,8 +6,7 @@
  * @package default
  * @author  WuJunwei
  */
-class download_image 
-{
+class download_image {
      
     public $save_path;                  //抓取图片的保存地址
  
@@ -21,8 +20,7 @@ class download_image
      * @param String $save_path    抓取图片的保存地址
      * @param Int    $img_size     抓取图片的保存地址
      */
-    public function __construct($save_path,$img_size)
-    {
+    public function __construct($save_path,$img_size){
         $this->save_path=$save_path;
         $this->img_size=$img_size;
     }
@@ -157,7 +155,7 @@ class download_image
  
 set_time_limit(120);     //设置脚本的最大执行时间  根据情况设置 
 $download_img=new download_image("E:/www2/GitHub/php_lib_code_center/",0);   //实例化下载图片对象
-$download_img->recursive_download_images('http://www.topit.me/pop/');      //递归抓取图片方法
+$download_img->recursive_download_images('http://www.petshow.cc/');      //递归抓取图片方法
 //$download_img->download_current_page_images("http://www.topit.me/");     //只抓取当前页面图片方法
  
 ?>
