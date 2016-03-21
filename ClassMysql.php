@@ -374,6 +374,7 @@ class MMysql {
     }
  
 }
+?>
 
 
 <?php
