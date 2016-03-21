@@ -1,2 +1,5 @@
 Qrcode
 QueryList
+.buildpath
+.project
+.settings/*
